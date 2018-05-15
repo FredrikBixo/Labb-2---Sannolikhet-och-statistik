@@ -1,0 +1,29 @@
+Förberedelse
+
+Linjär regression används för hitta ett linjärt samband mellan 1 variabel och 1 eller flera oberoende variabler 
+
+Fråga 1
+
+Den nedersta grafen visar den estimerade sannolikhetsfunktionen. X axel står för vikten i gram hos barn som föds. Den blåa grafen står för barn till icke röckare, den röda för rökare. 
+
+Den vänsta bloxploten beskriver värderna för vikten till icke-rökande föräldrar. Boxen står för värden som ligger inom 25% och 75% percnetilen. Sträcket i boxen står för medianen. De röda strecken står för extremvärden.
+
+Fråga 2
+
+Det som händer när värdet på N ökas är att X axeln ökar. Anledningen är att X axeln representerar summan av N stycken random variabler: X = X1+X2+X3+Xn. Y axeln represenenterar frekvensen som en viss random variabel förekommer. Vid N = 1 går det att se att X är exponentialfördelad. Vid stora värden för N (> 1000) Så sker ingen märkbarn förändering på distrubionen när N ökas med ett steg. Dock så närmar sig distrubionen en normalfördelning ju större N är. Detta beror på den centrala gränsärde satsen som säger att summan av oberoende variabler går mot en normalfördelning när n -> infinity.
+
+3.
+
+Subsituera Z = e^(X*cos(Y))
+
+6
+
+väntevärdet ändras, allt annat är likadant
+om jag ökar på väntevärdet så ändra
+frön = väntevärdet
+ökas standardavikelsen så ökar spridningen på det upmätta medelvärdet.
+ökas a så minskas intervallet och många hamnar under det sanna värdet som är 2
+
+% 95 stycken av 100 intervall inehåller det sanna värdet av mu. minskas a ökar intervallet men konfidensgraden blir högre.
+
+
